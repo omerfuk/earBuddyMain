@@ -9,21 +9,25 @@
 /* Begin PBXBuildFile section */
 		DEA6728C28664A57008D5DCB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEA6728B28664A57008D5DCB /* AppDelegate.swift */; };
 		DEA6728E28664A57008D5DCB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEA6728D28664A57008D5DCB /* SceneDelegate.swift */; };
-		DEA6729028664A57008D5DCB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEA6728F28664A57008D5DCB /* ViewController.swift */; };
-		DEA6729328664A57008D5DCB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DEA6729128664A57008D5DCB /* Main.storyboard */; };
 		DEA6729528664A59008D5DCB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DEA6729428664A59008D5DCB /* Assets.xcassets */; };
 		DEA6729828664A59008D5DCB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DEA6729628664A59008D5DCB /* LaunchScreen.storyboard */; };
+		DEA672A028664A70008D5DCB /* Music.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEA6729F28664A70008D5DCB /* Music.swift */; };
+		DEA672A228664A8A008D5DCB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DEA672A128664A8A008D5DCB /* Main.storyboard */; };
+		DEA672A428664AA2008D5DCB /* MusicTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEA672A328664AA1008D5DCB /* MusicTableViewCell.swift */; };
+		DEA672A628664B43008D5DCB /* MusicTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEA672A528664B43008D5DCB /* MusicTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		DEA6728828664A57008D5DCB /* earBuddyMain.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = earBuddyMain.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DEA6728B28664A57008D5DCB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DEA6728D28664A57008D5DCB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		DEA6728F28664A57008D5DCB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		DEA6729228664A57008D5DCB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DEA6729428664A59008D5DCB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DEA6729728664A59008D5DCB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DEA6729928664A59008D5DCB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DEA6729F28664A70008D5DCB /* Music.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Music.swift; sourceTree = "<group>"; };
+		DEA672A128664A8A008D5DCB /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		DEA672A328664AA1008D5DCB /* MusicTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MusicTableViewCell.swift; sourceTree = "<group>"; };
+		DEA672A528664B43008D5DCB /* MusicTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MusicTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,13 +60,15 @@
 		DEA6728A28664A57008D5DCB /* earBuddyMain */ = {
 			isa = PBXGroup;
 			children = (
+				DEA672A528664B43008D5DCB /* MusicTableViewController.swift */,
 				DEA6728B28664A57008D5DCB /* AppDelegate.swift */,
 				DEA6728D28664A57008D5DCB /* SceneDelegate.swift */,
-				DEA6728F28664A57008D5DCB /* ViewController.swift */,
-				DEA6729128664A57008D5DCB /* Main.storyboard */,
+				DEA672A328664AA1008D5DCB /* MusicTableViewCell.swift */,
+				DEA672A128664A8A008D5DCB /* Main.storyboard */,
 				DEA6729428664A59008D5DCB /* Assets.xcassets */,
 				DEA6729628664A59008D5DCB /* LaunchScreen.storyboard */,
 				DEA6729928664A59008D5DCB /* Info.plist */,
+				DEA6729F28664A70008D5DCB /* Music.swift */,
 			);
 			path = earBuddyMain;
 			sourceTree = "<group>";
@@ -125,9 +131,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DEA672A228664A8A008D5DCB /* Main.storyboard in Resources */,
 				DEA6729828664A59008D5DCB /* LaunchScreen.storyboard in Resources */,
 				DEA6729528664A59008D5DCB /* Assets.xcassets in Resources */,
-				DEA6729328664A57008D5DCB /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +144,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DEA6729028664A57008D5DCB /* ViewController.swift in Sources */,
+				DEA672A428664AA2008D5DCB /* MusicTableViewCell.swift in Sources */,
 				DEA6728C28664A57008D5DCB /* AppDelegate.swift in Sources */,
 				DEA6728E28664A57008D5DCB /* SceneDelegate.swift in Sources */,
+				DEA672A028664A70008D5DCB /* Music.swift in Sources */,
+				DEA672A628664B43008D5DCB /* MusicTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		DEA6729128664A57008D5DCB /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				DEA6729228664A57008D5DCB /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		DEA6729628664A59008D5DCB /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (

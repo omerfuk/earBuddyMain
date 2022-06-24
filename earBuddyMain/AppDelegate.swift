@@ -1,8 +1,8 @@
 //
 //  AppDelegate.swift
-//  earBuddyMain
+//  KindofMusicApp
 //
-//  Created by Ömer Faruk Kılıçaslan on 24.06.2022.
+//  Created by mert Kanak on 23.06.2022.
 //
 
 import UIKit
